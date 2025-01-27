@@ -27,7 +27,7 @@ const Title = ({ variant = 'default', children }) => {
       Tag = 'h2';
       break;
     default:
-      titleStyle = 'font-[Jaro] text-xl text-black';  // Default style
+      titleStyle = 'font-[Jaro] text-xl text-black'; 
       break;
   }
 

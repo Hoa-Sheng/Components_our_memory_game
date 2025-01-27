@@ -5,3 +5,10 @@ body{
   padding: 10px;
 }
 
+@font-face {
+  font-family: 'Arial Nova';
+  src: url('/fonts/ArialNova-Regular.woff2') format('woff2'),
+       url('/fonts/ArialNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

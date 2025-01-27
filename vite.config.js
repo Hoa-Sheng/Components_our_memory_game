@@ -3,10 +3,17 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 
-// https://vite.dev/config/
-export default defineConfig({
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        'arial-nova': ['"Arial Nova"', 'Arial', 'sans-serif'],
+      },
+    },
+  },
   plugins: [
     react(),
     tailwindcss(),
   ],
-})
+};
+
