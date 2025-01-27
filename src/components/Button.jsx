@@ -4,7 +4,7 @@ const Button = ({ children }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {
-    setIsClicked(true);
+    setIsClicked(true); 
     setTimeout(() => {
       setIsClicked(false); 
     }, 200);

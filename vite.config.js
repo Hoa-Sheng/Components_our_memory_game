@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 
-module.exports = {
+export default defineConfig({
   theme: {
     extend: {
       fontFamily: {
@@ -15,5 +15,4 @@ module.exports = {
     react(),
     tailwindcss(),
   ],
-};
-
+})

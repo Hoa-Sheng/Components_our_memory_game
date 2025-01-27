@@ -3,6 +3,8 @@
 body{
   background: linear-gradient(90.06deg, #301D4B 56.1%, #483C7B 99.95%);
   padding: 10px;
+  background-size: cover;
+  overflow: hidden;
 }
 
 @font-face {
