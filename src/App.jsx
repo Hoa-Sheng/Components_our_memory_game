@@ -3,11 +3,12 @@ import Title from './components/Title.jsx';
 import Text from './components/Text.jsx';
 import Button from './components/Button.jsx';
 import Color from './components/Color.jsx';
+import Tiles from './components/Tiles.jsx';
 
 function App() {
   return (
     <div className="App px-10 py-5">
-      <div className="flex justify-between flex-wrap p-5 ">
+      <div className="flex justify-evenly flex-wrap p-5 ">
         <div className="Titles">
           <h1 className="text-white text-5xl font-normal font-['Jaro'] ">Titles</h1>
           <div>
@@ -27,8 +28,9 @@ function App() {
             <p className ="font-['Jaro'] text-white">40 Regular</p>
           </div>
         </div>
-        <div className="Buttons flex flex-col">
+        <div className="Buttons flex flex-col justify-evenly">
           <Button>Button</Button>
+          <Tiles></Tiles>
         </div>
         <div className="Texts flex flex-col">
           <h1 className="text-white text-5xl font-normal font-['Jaro'] ">Texts</h1>
@@ -40,9 +42,9 @@ function App() {
           <p className ="font-['Jaro'] text-white">32 Regular</p>
         </div>
       </div>
-      <div className="Colors ">
+      <div className="Colors flex flex-col justify-evenly items-center ">
           <h1 className="text-white text-5xl font-normal font-['Jaro'] ">Colors : </h1>
-          <div className="flex flex-row">
+          <div className="flex flex-row mx-10">
             <div>
               <Color variant="White-1"></Color>
               <p className ="font-['Jaro'] text-white">FFFFFF</p>
